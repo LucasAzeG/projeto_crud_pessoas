@@ -26,3 +26,18 @@ h3{
     font-size: 1.2em;
 }
 
+label, input{
+    display: block;
+    margin: 15px 0px;
+}
+
+input{
+    width: 230px;
+    height: 40px;
+}
+
+#div-lista-pessoas{
+    width: 100%;
+    min-height: 450px;
+    color: #ffffff;
+}
