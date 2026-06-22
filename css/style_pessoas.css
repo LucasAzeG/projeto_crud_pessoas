@@ -3,6 +3,13 @@
     min-height: 600px;
     padding: 10px;
     margin: 20px auto;
-    font-family: 'Franklin Gothic Medium';
+    font-family: Verdana;
+}
+
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #1e3c58;
 }
 
