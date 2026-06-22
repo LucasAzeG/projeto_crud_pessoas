@@ -47,6 +47,6 @@ const listPessoas = () => {
 
     //PERCORRER O ARRAY pessoas COM O foreach
     pessoas.forEach((elem, i) => {
-        divLista.innerHTML += `${i + 1} - ${elem.nome} - ${elem.idade} idade, ${parseFloat(elem.renda).toFixed(2), replace(',',',')} ${calcDesconto(elem)}<br>`
+        divLista.innerHTML += `${i + 1} - ${elem.nome} - ${elem.idade} anos, ${parseFloat(elem.renda).toFixed(2), replace(',',',')} ${calcDesconto(elem)}<br>`
     })
 }
